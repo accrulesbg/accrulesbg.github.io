@@ -21,11 +21,7 @@ const Contact = ({ language }) => {
   });
 
   // Replace this URL with your actual Google Form submission URL
-  const GOOGLE_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLScx7XBATYjS-uOcoMWkBKq8PEreON_8gAgqcupOoQXXhFO6AQ/formResponse';
-
-
-  // link = "https://docs.google.com/forms/d/e/1FAIpQLScx7XBATYjS-uOcoMWkBKq8PEreON_8gAgqcupOoQXXhFO6AQ/viewform?usp=pp_url&entry.1735252318=Alexander&entry.2079212150=alekmarinov@gmail.com&entry.1454401326=test6"
-
+  const GOOGLE_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSeJK_R8S_6NFAF2LxnNeEkFtt3kw62GBbTFnbFiHpb2citk6w/formResponse';
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -41,9 +37,9 @@ const Contact = ({ language }) => {
     try {
       // Create form data for submission
       const formDataToSubmit = new FormData();
-      formDataToSubmit.append('entry.1735252318', formData.name); // Replace with your actual entry IDs
-      formDataToSubmit.append('entry.2079212150', formData.email);
-      formDataToSubmit.append('entry.1454401326', formData.message);
+      formDataToSubmit.append('entry.1164631264', formData.name); // Replace with your actual entry IDs
+      formDataToSubmit.append('entry.64113100', formData.email);
+      formDataToSubmit.append('entry.1908466750', formData.message);
 
       // Submit to Google Forms
       const response = await fetch(GOOGLE_FORM_URL, {
