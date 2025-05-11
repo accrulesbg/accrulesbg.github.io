@@ -115,6 +115,9 @@ const Home = ({ language }) => {
               <Typography variant="body1" color="text.secondary">
                 {content.email}
               </Typography>
+              <Typography variant="body1" color="text.secondary" sx={{ mt: 2 }}>
+                {content.contactPerson}
+              </Typography>
             </Box>
           </Grid>
           <Grid item xs={12} md={4}>

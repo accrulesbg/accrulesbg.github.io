@@ -108,9 +108,15 @@ const Contact = ({ language }) => {
                   <PhoneIcon sx={{ mr: 2, fontSize: 28 }} />
                   <Typography variant="body1">{content.phone}</Typography>
                 </Box>
-                <Box sx={{ display: 'flex', alignItems: 'center' }}>
+                <Box sx={{ display: 'flex', alignItems: 'center', mb: 3 }}>
                   <EmailIcon sx={{ mr: 2, fontSize: 28 }} />
                   <Typography variant="body1">{content.email}</Typography>
+                </Box>
+                <Box sx={{ display: 'flex', alignItems: 'center' }}>
+                  <PersonIcon sx={{ mr: 2, fontSize: 28 }} />
+                  <Typography variant="body1">
+                    {content.contactPerson}
+                  </Typography>
                 </Box>
               </Box>
             </Box>

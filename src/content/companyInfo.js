@@ -5,7 +5,8 @@ export const companyInfo = {
     address: "Sofia 1712, Bulgaria, Mladost 3, bl.326A, office 31",
     phone: "+359 887 224 119",
     email: "accrules.bg@gmail.com",
-    mission: "Our mission is to help business owners focus on their core business operations by handling the accounting and financial aspects, freeing them from constant deadline monitoring and number-crunching."
+    mission: "Our mission is to help business owners focus on their core business operations by handling the accounting and financial aspects, freeing them from constant deadline monitoring and number-crunching.",
+    contactPerson: "Lyubomira Mihaylovska"
   },
   bg: {
     name: "АКРУЛС",
@@ -13,6 +14,7 @@ export const companyInfo = {
     address: "София 1712, България, ж.к.Младост 3, бл.326А, офис 31",
     phone: "+359 887 224 119",
     email: "accrules.bg@gmail.com",
-    mission: "Нашата мисия е да помогнем на бизнес собствениците да се съсредоточат върху основните си бизнес операции, като се грижим за счетоводната и финансовата част, освобождавайки ги от постоянното следене на срокове и работа с цифри."
+    mission: "Нашата мисия е да помогнем на бизнес собствениците да се съсредоточат върху основните си бизнес операции, като се грижим за счетоводната и финансовата част, освобождавайки ги от постоянното следене на срокове и работа с цифри.",
+    contactPerson: "Любомира Михайлова"
   }
 }; 
