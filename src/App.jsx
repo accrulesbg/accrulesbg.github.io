@@ -6,6 +6,7 @@ import Header from './components/Header'
 import Home from './components/Home'
 import Services from './components/Services'
 import Contact from './components/Contact'
+import CookieConsentBanner from './components/CookieConsent'
 import { Box } from '@mui/material'
 import { Helmet, HelmetProvider } from 'react-helmet-async'
 
@@ -129,6 +130,7 @@ function App() {
                 <Route path="/contact" element={<Contact language={language} />} />
               </Routes>
             </Box>
+            <CookieConsentBanner language={language} />
           </Box>
         </Router>
       </ThemeProvider>
